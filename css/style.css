@@ -1,0 +1,69 @@
+.desc {
+ font-size: 20px;
+ font-family: arial;
+ text-align: center;
+}
+.col-md-12 {
+ text-align:center;
+}
+.par {
+ text-align: center;
+ color: white;
+ font-size: 35px;
+}
+.happy {
+  font-size: 20px;
+  font-family: Georgia;
+  text-align:center;
+
+}
+.party {
+  font-size: 20px;
+font-family: Georgia;
+  text-align:center;
+  color: white;
+}
+.breakfast{
+  font-size: 20px;
+  font-family: Georgia;
+  color: white;
+  font-style: italic;
+  text-align: center;
+
+}
+.dinner{
+  font-size: 20px;
+  font-family: Georgia;
+  color: white;
+  font-style: italic;
+  text-align: center;
+
+}
+.lunch{
+  font-size: 20px;
+  font-family: Georgia;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+
+.breakfastbg {
+  background-image: url('breakfast.jpg');
+  padding:19px;
+  margin:0px;
+}
+.dinnerbg{
+  background-image: url('dinner.jpg');
+  padding:19px;
+  margin:0px;
+}
+.lunchbg{
+  background-image: url('lunch.jpg');
+  padding:19px;
+  margin:0px;
+}
+.happybg{
+  background-color:#eff0f2 ;
+  padding:0;
+}
