@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+.col-sm-12 {
+  text-align: center;
+}
+
+.breakfastbg:hover {
+  color: white;
+  background-color: #f2f2f2;
+  opacity: 0.5;
+}
+
+.dinnerbg:hover {
+  color: white;
+  background-color: #f2f2f2;
+  opacity: 0.5;
+}
+
+.lunchbg:hover {
+  color: white;
+  background-color: #f2f2f2;
+  opacity: 0.5;
+}
+
+.topHead {
+  text-align: center;
+  font-size: 30px;
+}
+
+.par {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-family: 'Roboto Slab';
+  font-weight: lighter;
+  padding: 50px;
+}
+
+.happy {
+  font-size: 20px;
+  font-family: 'Roboto Slab';
+  text-align: center;
+}
+
+.party {
+  font-size: 20px;
+  font-family: 'Roboto Slab';
+  text-align: center;
+  color: white;
+}
+
+.breakfast {
+  font-size: 20px;
+  font-family: 'Roboto Slab';
+  color: white;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
+
+.dinner {
+  font-size: 20px;
+  font-family: 'Roboto Slab';
+  color: white;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
+
+.lunch {
+  font-size: 20px;
+  font-family: 'Roboto Slab';
+  color: white;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
+
+.breakfastbg {
+  background-image: url('breakfast.jpg');
+  padding: 19px;
+  margin: 0px;
+}
+
+.dinnerbg {
+  background-image: url('dinner.jpg');
+  padding: 19px;
+  margin: 0px;
+}
+
+.lunchbg {
+  background-image: url('lunch.jpg');
+  padding: 19px;
+  margin: 0px;
+}
+
+.happybg {
+  background-color: #eff0f2;
+  padding: 13px;
+}
+
+.happybg:hover {
+  background-color: orange;
+  color: white;
+}
+
+.partybg:hover {
+  background-color: orange;
+  color: black;
+}
+
+.partybg {
+  padding: 15px;
+  background-color: #ff4300;
+}
+
+.food {
+  padding-top: 80px;
+  margin: 0px;
+  height: 500px;
+  width: 500px;
+  left: 5%;
+}
+
+.foodp {
+  float: right;
+  padding: 50px;
+  right: 7%;
+}
+
+.desc-1 {
+  font-family: 'Roboto Slab';
+  font-size: 34px;
+  text-align: left;
+  color: #595959;
+}
+
+.desc1 {
+  font-family: 'Roboto Slab';
+  font-size: 24px;
+  text-align: left;
+  padding: 5px;
+}
+
+.ipsum1 {
+  font-family: 'Roboto Slab';
+  font-size: 17px;
+  text-align: left;
+  color: #595959;
+}
+
+.desc-2 {
+  font-family: 'Roboto Slab';
+  font-size: 34px;
+  text-align: right;
+  color: #595959;
+}
+
+.desc2 {
+  font-family: 'Roboto Slab';
+  font-size: 24px;
+  text-align: right;
+  padding: 5px;
+}
+
+.ipsum2 {
+  font-family: 'Roboto Slab';
+  font-size: 17px;
+  text-align: right;
+  color: #595959;
+}
+
+p {
+  text-align: center;
+}
+
+.gallery1 {
+  color: white;
+  margin: 0px;
+  padding-top: 50px;
+  float: left;
+}
+
+.gallery2 {
+  color: white;
+  margin: 0px;
+  padding-top: 50px;
+  float: ;
+}
+
+.view {
+  font-size: 17px;
+  color: #ff6600;
+  border: 1px solid #ff6600;
+  padding: 10px;
+  font-family: 'Roboto Slab';
+}
+
+.view:hover {
+  background-color: #F15A29;
+  color: white;
+}
+
+.arr {
+  font-size: 30px;
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.drinks {
+  float: left;
+  padding: 50px;
+  right: 5%;
+  padding-top: 0px
+}
+
+.drink {
+  padding-top: 0px;
+  margin: 0px;
+  height: 300px;
+  width: 400px;
+}
+
+a:hover {
+  background-color: #ff6600;
+}
+
+.menu {
+  background-color: grey;
+  padding: 100px;
+}
+
+
+/*START OF THE FOOD MENU */
+
+.third {
+  text-align: center;
+  display: block;
+  padding: 20px;
+  font-family: 'Roboto Slab';
+}
+
+.nav {
+  text-align: center;
+  background-color: #d9d9d9;
+  font-size: 15px;
+  font-family: 'Roboto Slab';
+  padding: 20px;
+  font-weight: bold;
+  color: #595959;
+}
+
+.nav:hover {
+  background-color: white;
+  color: #F15A29;
+  border: 0px solid white;
+}
+
+.third {
+  background-color: white;
+  padding: 20px;
+}
+
+.foodMenu {
+  padding: 15px;
+  height: 200px;
+  width: 300px;
+}
+
+a {
+  background-color: grey;
+  color: black;
+  font-family: 'Roboto Slab';
+  font-size: 10px;
+}
+
+.one {
+  padding: 10px;
+}
+
+.top {
+  background-image: url('foodsBg.jpg');
+  padding: 60px;
+}
+
+.pizza {
+  padding-left: 11px;
+}
+
+.foodName {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Roboto Slab';
+  color: #F15A29;
+  font-weight: light;
+}
+
+
+/*START OF HAPPY CUSTOMERS*/
+
+.customerMenu .thumbnail {
+  margin: 50px;
+  font-family: 'Roboto Slab';
+  box-shadow: 2px 3px 10px 6px #ebebe0;
+}
+
+.customers {
+  text-align: center;
+  border-right: 2px solid #f2f2f2;
+  padding: 20px;
+}
+
+.end {
+  background-color: #ff6600;
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto Slab';
+  text-align: center;
+}
+
+.thumbnail h6 {
+  font-weight: bold;
+  color: #595959;
+  font-size: 15px;
+}
+
+.thumbnail p {
+  color: #595959;
+  font-weight: lighter;
+}
+
+.col-sm-5 p {
+  font-size: 14px;
+}
+
+.col-sm-5 {
+  text-align: center;
+  padding: 20px;
+}
+
+.arrowCustomers {
+  font-size: 20px;
+  color: #F15A29;
+  font-weight: lighter;
+}
+
+.customerMenu {
+  background-color: white;
+  padding: 10px;
+}
+
+.customersP {
+  padding: 10px;
+}
+
+
+/*START OF SIGN UP DIV*/
+
+.signUp {
+  text-align: center;
+  background-image: url('subscribe.jpg');
+  font-family: 'Roboto Slab';
+  padding: 60px;
+}
+
+.signUp h3 {
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+}
+
+.signform {
+  padding: 20px;
+  color: white;
+}
+
+input[type=text] {
+  padding: 9px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  opacity: 0.5;
+  color: white;
+}
+
+.btn-btn-info {
+  background-color: #F15A29;
+  border-radius: 3px;
+  border: 0px solid black;
+  font-size: 18px;
+  width: 15%;
+  padding: 9px;
+  margin-left: 20px;
+}
+
+#email:hover {
+  color: black;
+}
+
+
+/*FINAL DIV*/
+
+.end {
+  background-color: #ff6600;
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto Slab';
+  text-align: center;
+  padding: 10px;
+}
