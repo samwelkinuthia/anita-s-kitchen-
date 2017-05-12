@@ -30,6 +30,19 @@
         <div class="row">
           <div class="col-sm-12 happybg">
             <span class="happy"><p>Happy Hour</p></span>
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">More Details</button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <li>All Drinks at 25% discount!</li>
+                <li>Buy a bottle of Inglenook Cabernet Sauvignon 1941 – $24,675. at $20000 in this onetime deal!</li>
+              </div>
+            </div>
           </div>
         </div>
         <!---  START OF pARTY TIME   ------>
@@ -60,61 +73,60 @@
       <div class="row">
         <div class="col-sm-12">
           <!--- MAIN BODY ---->
-          <div class="row">
-            <div class="col-sm-6 food">
-              <div class="col-sm-12">
-                <div class="thumbnail">
-                  <tr>
-                    <img src="img/fastFood1.jpg">
-                  </tr>
-                  <tr>
-                    <img src="img/fastFood2.jpg">
-                  </tr>
-                  <!---IMAGES ON THE LEFT-->
-                </div>
+          <div class="col-sm-6 food">
+            <div class="col-sm-12">
+              <div class="thumbnail">
+                <tr>
+                  <img src="img/fastFood1.jpg">
+                </tr>
+                <tr>
+                  <img src="img/fastFood2.jpg">
+                </tr>
+                <!---IMAGES ON THE LEFT-->
               </div>
             </div>
+          </div>
 
-            <div class="col-sm-6 foodp">
-              <!--FAST FOOD PARAGRAPH--->
-              <p class="desc-1"><strong>Fast Food</strong></p>
-              <p class="desc1">You'll love our delicious Fast Food</p>
-              <p class="ipsum1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."</p>
-              <div class="gallery1"><span class="view">VIEW GALLERY <span class ="arr">&#8594;</span></span>
-              </div>
+          <div class="col-sm-6 foodp">
+            <!--FAST FOOD PARAGRAPH--->
+            <p class="desc-1"><strong>Fast Food</strong></p>
+            <p class="desc1">You'll love our delicious Fast Food</p>
+            <p class="ipsum1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."</p>
+            <div class="gallery1"><span class="view">VIEW GALLERY <span class ="arr">&#8594;</span></span>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
 
-    <div class="container-fluid">
-      <!-- START OF DRINKS---->
-      <div class="row">
-        <div class="col-sm-12 part2">
-          <div class="col-sm-6 drinks">
-            <p class="desc-2"><strong>Drinks</strong></p>
-            <p class="desc2">We also produce Delicious Drinks</p>
-            <p class="ipsum2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."</p>
-            <div class="gallery2"><span class="view">VIEW GALLERY <span class ="arr">&#8594;</span></span>
-            </div>
+  <div class="container-fluid">
+    <!-- START OF DRINKS---->
+    <div class="row">
+      <div class="col-sm-12 part2">
+        <div class="col-sm-6 drinks">
+          <p class="desc-2"><strong>Drinks</strong></p>
+          <p class="desc2">We also produce Delicious Drinks</p>
+          <p class="ipsum2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."</p>
+          <div class="gallery2"><span class="view">VIEW GALLERY <span class ="arr">&#8594;</span></span>
           </div>
+        </div>
 
-          <div class="col-sm-6 drink">
-            <div class="row" style="
+        <div class="col-sm-6 drink">
+          <div class="row" style="
               padding: 20px;
               box-shadow: 2px 2px 1px 1px #ebebe0;
             ">
-              <img src="img/drink1.jpg" alt="" style="float:left;width:50%">
-              <img src="img/drink2.jpg" alt="" style="float:right;width:50%">
-            </div>
+            <img src="img/drink1.jpg" alt="" style="float:left;width:50%">
+            <img src="img/drink2.jpg" alt="" style="float:right;width:50%">
           </div>
         </div>
       </div>
     </div>
+  </div>
   </div>
 
   <!--START OF FOOD MENU-->
@@ -191,9 +203,10 @@
       <p>Thats what we are.</p>
       <img src="img/facebook-logo.png">
       <img src="img/twitter.png">
-      <img src="img/pinterest-logotype-circle.png">
-      <h4>2017 Menu restaurant</h4>
-    </div>
+      <div class="row">
+        <img src="img/pinterest-logotype-circle.png">
+        <h4>2017 Menu restaurant</h4>
+      </div>
 
 
 
