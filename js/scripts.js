@@ -1,7 +1,19 @@
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+//close
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+//cofirm user
 $(document).ready(function() {
-  $("#signButton").click(function() {
-    alert("Your email registration was a success!");
+  $("form#subsribe-users").submit(function(event) {
     event.preventDefault();
+    var userEmail = $("input#user-email").val();
+    alert(userEmail + " " + "registration at Anita's Kitchen was a success! Thank You.");
+
   });
   // Get the modal
   var modal = document.getElementById('myModal');
@@ -9,7 +21,6 @@ $(document).ready(function() {
   // Get the button that opens the modal
   var btn = document.getElementById("myBtn");
 
-  // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
 
   // When the user clicks on the button, open the modal

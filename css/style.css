@@ -1,10 +1,77 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .col-sm-12 {
   text-align: center;
 }
 
+.icon {
+  width: 65px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: white;
+  margin: 6px 0;
+  margin-bottom: 13px;
+}
 
-/* The Modal (background) */
+.hamburger-icon {
+  margin-top: 90px;
+  margin-left: 90px;
+  cursor: pointer;
+}
+
+
+/* Full screen menu */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: white;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.hamburger-icon {
+  margin-top: 90px;
+  margin-left: 90px;
+  cursor: pointer;
+}
 
 .modal {
   display: none;
@@ -18,12 +85,15 @@
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
 }
+
 .modal li {
-  float:left;
+  float: left;
 }
-.mybtn{
-  color;white;
-  background-color:orange;
+
+.mybtn {
+  color;
+  white;
+  background-color: orange;
 }
 
 
@@ -33,7 +103,7 @@
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
-  float:left;
+  float: left;
   border: 1px solid grey;
   width: 80%;
   font-size: 14px;
@@ -77,6 +147,12 @@
 .topHead {
   text-align: center;
   font-size: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background: url(../img/landing.jpg) no-repeat;
+  width: 100%;
+  color: white;
 }
 
 .par {
@@ -246,12 +322,17 @@ p {
 .view:hover {
   background-color: #F15A29;
   color: white;
+  cursor: pointer;
 }
 
 .arr {
   font-size: 30px;
   color: #ff6600;
   font-weight: bold;
+}
+
+.arr:hover {
+  color: white;
 }
 
 .drinks {
@@ -403,47 +484,69 @@ a {
 
 /*START OF SIGN UP DIV*/
 
-.signUp {
+.contact {
+  height: 300px;
+  background-image: url('../img/subscribe.jpg');
+  background-size: 100%100%;
+  color: white;
   text-align: center;
-  background-image: url('subscribe.jpg');
+  padding: 36px;
+  padding-top: 80px;
   font-family: 'Roboto Slab';
-  padding: 60px;
 }
 
-.signUp h3 {
+.user-email {
+  color: black;
+}
+
+input[type=email] {
+  width: 400px;
+  height: 50px;
+  border-radius: 4px;
+  border-color: transparent;
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 22px;
   color: white;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 ::-webkit-input-placeholder {
-  color: black;
-}
-
-.signform {
-  padding: 20px;
   color: white;
 }
 
-input[type=text] {
-  padding: 9px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  opacity: 0.5;
+:-moz-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
   color: white;
 }
 
-.btn-btn-info {
+.delivery {
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.button-subscribe {
   background-color: #F15A29;
-  border-radius: 3px;
-  border: 0px solid black;
-  font-size: 18px;
-  width: 15%;
-  padding: 9px;
-  margin-left: 20px;
-}
-
-#email:hover {
-  color: black;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  width: 250px;
+  cursor: pointer;
 }
 
 
@@ -455,5 +558,5 @@ input[type=text] {
   font-size: 20px;
   font-family: 'Roboto Slab';
   text-align: center;
-  padding: 10px;
+  padding: 5px;
 }

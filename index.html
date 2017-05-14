@@ -8,13 +8,46 @@
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/scripts.js"></script>
+  <link rel="icon" type="image/png" href="img/68d66e9de4b572df811044d45e2abf76.png">
+
+
+  <!--Google analytics-->
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-99047709-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 
   <title>ANITA'S KITCHEN</title>
 
 </head>
 
 <body>
-  <div class="container-fluid topHead" style="background-image:url('img/landing.jpg')">
+  <div class="container-fluid topHead">
+    <div class="hamburger-icon" onclick="openNav()">
+      <div class="icon"></div>
+      <div class="icon"></div>
+      <div class="icon"></div>
+    </div>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">Contacts</a>
+        <a href="#">Events</a>
+        <a href="#">Menu</a>
+      </div>
+    </div>
     <img src="img/logoBig.png">
     <div class="par">
       <p>We provide the best Food<br> At the <strong>Right Price.</strong></p>
@@ -184,13 +217,11 @@
   <!--END OF HAPPY CUSTOMERS-->
 
   <!--START OF SIGN UP-->
-  <div class="container-fluid signUp">
-    <h3>Get daily food items delivered to your email</h3>
-    <form id="inpt">
-      <div class="form-group signform">
-        <input id="email" placeholder="Your Email" type="text" size="40">
-        <button type="submit" class="btn-btn-info" id="signButton"><span class="buttonDetail">Subscribe</span></button>
-      </div>
+  <div class="contact">
+    <h4 class="delivery">Get our daily food items delivered to your email.</h4>
+    <form id="subsribe-users">
+      <input type="email" placeholder="Your email" id="user-email">
+      <button type="submit" class="button-subscribe">Subscribe</button>
     </form>
   </div>
 
