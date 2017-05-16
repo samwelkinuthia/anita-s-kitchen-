@@ -4,7 +4,7 @@
 
 # About
 
-It was written primarily in **html**, **css** and **bootstrap** while the alert feature was done using **javascript**. It incorporates various bootstrap elements like **columns** and **rows**, javascript **variables** and *css hover effects.
+It was written primarily in **html**, **css** and **bootstrap** while the alert feature was done using **javascript**. It incorporates various bootstrap elements like **columns** and **rows**, javascript **variables** and *css hover effects.*
 
 # Contributer
 
