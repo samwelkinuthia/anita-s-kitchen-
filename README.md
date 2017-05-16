@@ -8,7 +8,7 @@ It was written primarily in **html**, **css** and **bootstrap**. It incorporates
 
 # Contributer
 
-The code was written by [Kinuthia Samwel](https://github.com/samwelkinuthia) under the guidance of [moringa school](http://moringaschool.com/).
+The code was written by [Kinuthia Samwel.](https://github.com/samwelkinuthia)
 
 # Purpose
 
