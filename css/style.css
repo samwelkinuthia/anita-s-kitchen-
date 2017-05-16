@@ -96,22 +96,6 @@ html, body {
 }
 
 
-/* Modal Content/Box */
-
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  float: left;
-  border: 1px solid grey;
-  width: 80%;
-  font-size: 14px;
-  font-family: 'Roboto Slab';
-}
-
-
-/* The Close Button */
-
 .close {
   color: #aaa;
   float: right;
