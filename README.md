@@ -12,7 +12,7 @@ The code was written by [Kinuthia Samwel.](https://github.com/samwelkinuthia)
 
 # Purpose
 
-Make a simple webpage.
+Give prospective clients a way to view what a restaurant has to offer and also delivery information should they choose to sign up.
 
 # How to use
 
