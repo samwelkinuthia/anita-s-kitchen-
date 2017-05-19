@@ -6,7 +6,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
-
+//add close/prevent default functionality to prevent submission of zero value answers
 //cofirm user
 $(document).ready(function() {
   $("form#subsribe-users").submit(function(event) {
